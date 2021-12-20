@@ -1,4 +1,6 @@
-The completion of this course comprehended the following topics, among others:
+![](cpp-logo.svg)
+
+The completion of this intensive C++ programming language course comprehended the following topics, among others:
 - namespaces
 - references
 - constructors and destructors,
