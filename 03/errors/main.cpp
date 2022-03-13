@@ -24,8 +24,8 @@ int main()
     std::string guessed_letters = "";
     int guesses_used = 0;
 
-    while (not is_word_already_guessed(secret_word, guessed_letters)
-              and guesses_used < MAX_GUESSES)
+    while (!is_word_already_guessed(secret_word, guessed_letters)
+              && guesses_used < MAX_GUESSES)
     {
 
         std::cout << std::endl
@@ -69,7 +69,7 @@ int main()
         ++guesses_used;
     }
 
-    if (not is_word_already_guessed(secret_word, guessed_letters))
+    if (!is_word_already_guessed(secret_word, guessed_letters))
     {
         std::cout << std::endl
              << "Guesses expired!"

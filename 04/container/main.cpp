@@ -16,17 +16,17 @@ void read_integers(std::vector< int >& ints, int count){
 
 
 bool same_values(std::vector<int>& ints){
-      int temp = ints[0];
-   for(int i:ints){
-       if (temp != i) return false;
-   }
+    int temp = ints[0];
+    for(int i:ints){
+        if (temp != i) return false;
+    }
     return true;
 }
 
 bool is_ordered_non_strict_ascending(std::vector<int>& ints){
     int temp = ints[0];
     for(int i:ints){ //for(unsigned i = 0; i <= ints.size(); i++)
-        if (temp  < i) return false;
+        if (temp < i) return false;
         temp = i;
     }
     return true;

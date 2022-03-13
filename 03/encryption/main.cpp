@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cctype>
+#include <string>
 
 using namespace std;
 const string ALPHABET = "abcdefghijklmnopqrstuvwxyz";

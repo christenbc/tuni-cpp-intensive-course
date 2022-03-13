@@ -78,7 +78,7 @@ bool read_routes( std::ifstream& file, std::shared_ptr<Routes> routes ){
         split_line(temp, line);
         if ( temp.size() > 2 ){
             route = temp.at(0);
-            for ( uint i = 2 ; i < temp.size(); ++i ){
+            for ( unsigned int i = 2 ; i < temp.size(); ++i ){
                 if ( !(routes->connect_route( temp.at(i - 1), temp.at(i), route)) ){
                     return false;
                 }

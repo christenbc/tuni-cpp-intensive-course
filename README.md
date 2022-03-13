@@ -10,3 +10,6 @@ The completion of this intensive C++ programming language course comprehended th
 - exceptions
 - STL library
 - pointers
+
+To compile manually, for example:
+g++ -o main.exe main.cpp includes/calculations.cpp
